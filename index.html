@@ -11,8 +11,8 @@
     <form id="survey-form">
       <label for="name-label">Name <input type="text" placeholder="Enter your name" id="name-label" required></label>
       <label for="email-label">Email <input placeholder="Enter your email" id="email" type="email" required></label>
-      <label for="number-label">Age (optional) <input type="number" placeholder="Enter your age" min="12" max="120" id="number-label"></label>
-      <label class="inline">Uni Year</label>
+      <label for="number-label">Age (optional)<input type="number" placeholder="Enter your age" maxlength="3" id="number-label"></label>
+      <label class="inline">Universitary Year</label>
       <select id="dropdown">
         <option>(choose one)</option>
         <option>1L</option>
@@ -34,8 +34,14 @@
       <label><input type="checkbox" value="ai"> AI</label>
       <label><input type="checkbox" value="data"> Data Science</label>
       <p>Why do you want to join us?</p>
-      <textarea placeholder="Type here..." rows="4" cols="30"></textarea>
+      <textarea placeholder="Type here..." rows="4" cols="30" id="message"></textarea>
       <input type="submit" id="submit">
     </form>
+
+
+
+
+    <!--SCRIPT JS-->
+    <script src="script.js"></script>
   </body>
 </html>
