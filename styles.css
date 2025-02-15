@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  h1 {
+    color: #4285F4;
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  /* Form Styling */
+  #survey-form {
+    background: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Labels & Inputs */
+  label {
+    display: block;
+    font-size: 1em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  /* Submit Button */
+  #submit {
+    background: linear-gradient(45deg, #4285F4, #DB4437, #F4B400, #0F9D58);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #submit:hover {
+    opacity: 0.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    #survey-form {
+      width: 90%;
+    }
+  }
+  

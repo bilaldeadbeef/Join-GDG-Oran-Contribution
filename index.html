@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>Join GDG Oran</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Join GDG Oran</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform.</p>
+    <form id="survey-form">
+      <label for="name-label">Name <input type="text" placeholder="Enter your name" id="name-label" required></label>
+      <label for="email-label">Email <input placeholder="Enter your email" id="email" type="email" required></label>
+      <label for="number-label">Age (optional) <input type="number" placeholder="Enter your age" min="12" max="120" id="number-label"></label>
+      <label class="inline">Uni Year</label>
+      <select id="dropdown">
+        <option>(choose one)</option>
+        <option>1L</option>
+        <option>2L</option>
+        <option>3L</option>
+        <option>1M</option>
+        <option>2M</option>
+        <option>Other</option>
+      </select>
+      <div>
+        <p>Have you ever joined a club before?</p>
+        <label><input type="radio" name="joined"> Yes </label>
+        <label><input type="radio" name="joined"> No</label>
+      </div>
+      <p>Which fields are you interested in?</p>
+      <label><input type="checkbox" value="web"> Web Dev</label>
+      <label><input type="checkbox" value="security"> Cyber Security</label>
+      <label><input type="checkbox" value="App"> App Dev</label>
+      <label><input type="checkbox" value="ai"> AI</label>
+      <label><input type="checkbox" value="data"> Data Science</label>
+      <p>Why do you want to join us?</p>
+      <textarea placeholder="Type here..." rows="4" cols="30"></textarea>
+      <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
